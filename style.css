@@ -5,7 +5,7 @@ html,body {
 }
 
 body {
-    background-image: url ("images/Clipping mask map.png");
+    background-image:url("images/Clipping mask map.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

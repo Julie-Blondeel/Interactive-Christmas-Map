@@ -8,3 +8,29 @@ body {
    background-color: #e9edf6;
    font-family: Arial, Helvetica, sans-serif;
 }
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: contain;
+}

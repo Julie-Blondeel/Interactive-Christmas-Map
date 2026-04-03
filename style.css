@@ -5,8 +5,6 @@ html,body {
 }
 
 body {
-    background-image:url("images/Clipping mask map.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+   background-color: #e9edf6;
+   font-family: Arial, Helvetica, sans-serif;
 }

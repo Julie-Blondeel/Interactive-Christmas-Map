@@ -5,7 +5,7 @@ html,body {
 }
 
 body {
-   background-color: #e9edf6;
+   background-color: #d9b0de;
    font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,23 +14,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px;
     box-sizing: border-box;
 }
 
-.map-container {
+.map-viewer {
+    width: 100vw;  
+    height:100vh;
+    overflow: hidden;
     position: relative;
-    width: 100%;
-    max-width: 1400px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    touch-action: none;
+    }
 
 .map-image {
     display: block;
-    width: 100%;
-    height: auto;
+    max-width: 95vw;
     max-height: 90vh;
-    object-fit: contain;
+    width: auto;
+    height: auto;
+    transform-origin: center center;
+    user-select: none;
+    -webkit-user-drag: none;  
+}
+
+/*For GSM & I-pad*/
+
+@media (max-width: 1024px){
+    .map-viewer{
+        justify-content: center;
+        align-items:center;
+    }
+
+    .map-image {
+        max-width: none;
+        max-height: none;
+        width: auto;
+        height: 100vh;
+    }
 }

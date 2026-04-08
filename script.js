@@ -1,22 +1,24 @@
 /* global Panzoom */
 
-const mapImage = document.getElementById('mapImage');
-const mapViewer = document.getElementById('mapViewer');
+const mapImage = document.getElementById("mapImage");
+const mapViewer = document.getElementById("mapViewer");
 
-const zoomInBtn = document.getElementById("zoomIn");
+/*const zoomInBtn = document.getElementById("zoomIn");
 const zoomOutBtn = document.getElementById("zoomOut");
 const resetZoomBtn = 
 document.getElementById("resetZoom");
-const zoomLevel = document.getElementById("zoomLevel");
+const zoomLevel = document.getElementById("zoomLevel");*/
 
 const panzoom = Panzoom(mapImage, {
-    maxScale: 4,
+    maxScale: 25,
     minScale: 1,
-    contain: "inside",
+    step: 0.2
+    /*contain: "inside",
     startScale: 1,
-    cursor:"grab"
+    cursor:"grab"*/
 });
 
+/*
 function updateZoomLabel() {
     const scale = panzoom.getScale();
     zoomLevel.textContent = `${Math.round(scale * 100)}%`;
@@ -41,23 +43,30 @@ zoomOutBtn.addEventListener("click", ()=>{
 
 resetZoomBtn.addEventListener("click", ()=>{
     resetMapPosition();
-});
+});*/
 
 mapViewer.addEventListener("wheel",
-    panzoom.zoomWithWheel);
+    panzoom.zoomWithWheel, {
+        passive:false
+    });
 
+function resetToCenter() {
+    panzoom.reset({animate:false});
+}
+
+/*
 mapImage.addEventListener("panzoomchange",
-    updateZoomLabel);
+    updateZoomLabel);*/
 
 window.addEventListener("load", () =>{
-    resetMapPosition();
+    resetToCenter();
 });
 
 window.addEventListener("resize", () => {
-    resetMapPosition();
+    resetToCenter();
 });
 
-updateZoomLabel();
+/*updateZoomLabel();*/
 
 
 /*mapViewer.addEventListener(

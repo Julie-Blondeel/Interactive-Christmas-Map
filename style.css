@@ -46,7 +46,7 @@ body {
 }
 
 
-.map-layer:active.map-image {
+.map-layer:active .map-image {
     cursor: grabbing;
 }
 

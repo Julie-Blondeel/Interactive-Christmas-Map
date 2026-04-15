@@ -8,34 +8,38 @@ const popupTitle = document.getElementById("popupTitle");
 const popupText = document.getElementById("popupText");
 const popupClose = document.getElementById("popupClose");
 
-const panzoom = Panzoom(mapLayer, {
+const panzoom = Panzoom(mapLayer,{
     maxScale: 25,
     minScale: 1,
     step: 0.2
-    contain: "outside"
  });
 
-mapViewer.addEventListener("wheel",
-    panzoom.zoomWithWheel, {
-        passive:false
-    });
+mapViewer.addEventListener(
+    "wheel",
+    (event) => {
+        event.preventDefault();
+        panzoom.zoomWithWheel(event);
+    },
+    { passive: false }
+);
+    
 
-function resetToCenter() {
+function resetToCenter(){
     panzoom.reset({animate:false});
 }
 
-window.addEventListener("load", () =>{
+window.addEventListener("load",() =>{
     resetToCenter();
 });
 
-window.addEventListener("resize", () => {
+window.addEventListener("resize",() => {
     resetToCenter();
 });
 
 const markers = document.querySelectorAll(".marker");
 
-markers.forEach((marker) => {
-     marker.addEventListener("click",(event) => {
+markers.forEach((marker) =>{
+     marker.addEventListener("click",(event)=>{
         event.stopPropagation();
 
         const title = marker.dataset.title||"";
@@ -47,11 +51,12 @@ markers.forEach((marker) => {
      });
 });
 
-popupClose.addEventListener("click", ()=>{
+popupClose.addEventListener("click", (event)=>{
+    event.stopPropagation();
     popup.classList.add("hidden");
 });
 
-mapViewer.addEventListener("click", (event) => {
+mapViewer.addEventListener("click", (event)=> {
     if(!event.target.closest(".marker")&&!
 event.target.closest(".popup")){
      popup.classList.add("hidden");

@@ -6,6 +6,7 @@
     <title>Interactive_map</title>
     <link rel = "stylesheet"href="style.css" /> 
 </head>
+
 <body>
     <main class="page">
         <div class="map-viewer" id="mapViewer">
@@ -27,7 +28,30 @@
         >
     <img src="./images/icon1.png" alt="Location 1" />
     </button>
+    
+    <!--Marker 2-->
+       
+    <button
+        class="marker"
+        style="left:63%; top:52%;"
+        data-title="Location 2"
+        data-text="Here we can add our description."
+        >
+        <img src="./images/icon2.png" alt="Location 2" />
+    </button>
+
+    <!--Marker 3-->
+
+    <button
+        class="marker"
+        style="left:28%; top:67%;"
+        data-title="Location 3"
+        data-text="Here we can add our description."
+        >
+        <img src=".images/icon3.png" alt="Location 3" />
+    </button>
     </div>
+
 
     <div class="popup hidden" id="popup">
         <button class="popup-close" id="popupClose" aria-label="Close popup">×</button>

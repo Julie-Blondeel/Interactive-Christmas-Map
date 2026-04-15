@@ -26,24 +26,111 @@ body {
     touch-action: none;
     }
 
+.map-layer {
+    position: relative;
+    display: inline-block;
+    transform-origin: center center;
+}
+
 .map-image {
     display: block;
     max-width: 95vw;
     max-height: 90vh;
     width: auto;
     height: auto;
-    transform-origin: center center;
     user-select: none;
-    -webkit-user-drag: none;  
+    -webkit-user-drag: none;
+    /*transform-origin: center center;*/
+    pointer-events: none;  
     cursor: grab;
 }
 
-.map-image:active {
+
+.map-layer:active.map-image {
     cursor: grabbing;
 }
 
+.marker {
+    position: absolute;
+    transform: translate(-50%,-100%);
+    border:none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    z-index: 10;
+}
 
-#resetZoom {
+.marker img {
+    width: 42px;
+    height:42px;
+    object-fit: contain;
+    display: block;
+    pointer-events: none;
+    transition: transform 0.2s ease;
+}
+
+.marker:hover img {
+    transform: scale(1.08);
+}
+
+.popup {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    width: 260px;
+    max-width: calc(100vw-32px);
+    background: rgba(255, 255, 255, 0.95);
+    color: #4b3b4f;
+    border-radius: 16px;
+    padding: 18px 18px 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    z-index: 100;
+}
+
+.popup.hidden {
+    display: none;
+}
+
+.popup h3 {
+    margin: 0 28px 8px 0;
+    font-size: 18px;
+}
+
+.popup p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    color: #6e5c72;
+}
+
+@media (max-width: 768px) {
+    .marker img {
+     width: 34px;
+     height: 34px;
+    }
+
+    .popup {
+        right: 12px;
+        top: 12px;
+        width: 220px;
+        padding: 16px 16px 14px;
+    }
+}
+
+
+/*#resetZoom {
     width: auto;
     padding: 0 14px;
     border-radius: 999px;
@@ -57,6 +144,6 @@ body {
     color: #3a3140;
 }*/
 
-    .map-image {
+ /*   .map-image {
         max-width: none;
     }

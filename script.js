@@ -48,6 +48,31 @@ markers.forEach((marker) =>{
         popupTitle.textContent = title;
         popupText.textContent = text;
         popup.classList.remove("hidden");
+
+    //position for popup close to the icon 
+
+    const markerRect = marker.getBoundingClientRect();
+    const viewRect = mapViewer.getBoundingClientRect();
+
+    let left = markerRect.left - viewerRect.left +30;
+    let top = markerRect.top - viewerRect.top -10;
+
+    //so that the popup does not extend beyond the right edge
+
+    const popupWidth = 220;
+    if(left + popupWidth > viewRect.width - 12) {
+        left = markerRect.left - viewerRect.left - popupWidth -20;
+    }
+
+    //so that the popup does not climb over the top
+
+    if(top<12){
+        top = markerRect.bottom - viewerRect.top +12;
+    }
+    
+    popup.style.left = `${left}px`;
+    popup.style.top = `${top}px`;
+
      });
 });
 

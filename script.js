@@ -51,23 +51,29 @@ markers.forEach((marker) =>{
 
     //position for popup close to the icon 
 
-    const markerRect = marker.getBoundingClientRect();
-    const viewerRect = mapViewer.getBoundingClientRect();
+    
 
-    let left = markerRect.left - viewerRect.left +30;
-    let top = markerRect.top - viewerRect.top -10;
-
-    //so that the popup does not extend beyond the right edge
+    let left = marker.offsetLeft +30;
+    let top = marker.offsetTop -20;
 
     const popupWidth = 220;
-    if(left + popupWidth > viewerRect.width - 12) {
-        left = markerRect.left - viewerRect.left - popupWidth -20;
+    const popupHeight = 120;
+
+    const layerWidth = mapLayer.offsetWidth;
+    const layerHeight = mapLayer.offsetHeight;
+
+
+    if(left + popupWidth > layerWidth - 12) {
+        left = marker.offsetLeft - popupWidth -20;
     }
 
-    //so that the popup does not climb over the top
 
     if(top<12){
-        top = markerRect.bottom - viewerRect.top +12;
+        top = marker.offsetTop +20;
+    }
+
+    if(top + popupHeight>layerHeight-12){
+        top = layerHeight - popupHeight -12;
     }
     
     popup.style.left = `${left}px`;

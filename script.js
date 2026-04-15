@@ -46,7 +46,7 @@ markers.forEach((marker) =>{
         const text = marker.dataset.text||"";
 
         popupTitle.textContent = title;
-        popup.Text.textContent = text;
+        popupText.textContent = text;
         popup.classList.remove("hidden");
      });
 });

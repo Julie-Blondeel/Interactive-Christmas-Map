@@ -75,6 +75,7 @@ body {
 }
 
 .popup {
+    transition: opacity 0.2s ease, transform 0.2s ease;
     position: absolute;
     left: 0;
     top: 0;

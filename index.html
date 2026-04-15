@@ -9,13 +9,33 @@
 <body>
     <main class="page">
         <div class="map-viewer" id="mapViewer">
+            <div class="map-layer" id="mapLayer">
             <img 
             src="./images/Clipping mask map.png" 
             alt="Interactive map" 
             class="map-image" 
             id="mapImage"
             />
-        </div>
+
+    <!--Marker 1-->
+
+    <button
+        class="marker"
+        style="left:42%; top:38%;"
+        data-title="Location 1"
+        data-text="Here we can add our description."
+        >
+    <img src="./images/icon1.png" alt="Location 1" />
+    </button>
+    </div>
+
+    <div class="popup hidden" id="popup">
+        <button class="popup-close" id="popupClose" aria-label="Close popup">×</button>
+        <h3 id="popupTitle"></h3>
+        <p id="popupText"></p>
+     </div>
+    </div>
+
     </main>
 
     <script

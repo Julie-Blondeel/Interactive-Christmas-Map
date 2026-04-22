@@ -34,8 +34,8 @@ body {
 
 .map-image {
     display: block;
-    max-width: 95vw;
-    max-height: 90vh;
+    max-width: 120vw;
+    max-height: 121vh;
     width: auto;
     height: auto;
     user-select: none;

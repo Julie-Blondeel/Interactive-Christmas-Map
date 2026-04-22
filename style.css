@@ -93,6 +93,16 @@ body {
     height: 80px;
 }
 
+.santa-marker img {
+    width: 90px;
+    height: 90px;
+}
+
+.book-marker img {
+    width: 90px;
+    height: 90px
+}
+
 .marker:hover img {
     transform: scale(1.08);
 }
@@ -167,6 +177,16 @@ body {
     .train-marker img {
         width: 60px;
         height: 60px;
+    }
+
+    .santa-marker img {
+        width: 67px;
+        height: 67px;
+    }
+
+    .book-marker img {
+        width: 66px;
+        height: 66px;
     }
 
     .popup {

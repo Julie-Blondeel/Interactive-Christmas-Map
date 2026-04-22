@@ -135,6 +135,20 @@ body {
      height: 34px;
     }
 
+    .carilon-marker img {
+        width: 26px;
+        height: 26ps;
+    }
+    .stadhuis-marker img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .walburga-marker img {
+        width: 46px;
+        height: 46px;
+    }
+
     .popup {
         width: 200px;
         padding: 16px 16px 14px;

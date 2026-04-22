@@ -141,22 +141,22 @@ body {
     }
 
     .carilon-marker img {
-        width: 26px;
-        height: 26ps;
+        width: 50px;
+        height: 50ps;
     }
     .stadhuis-marker img {
-        width: 42px;
-        height: 42px;
+        width: 62px;
+        height: 62px;
     }
 
     .walburga-marker img {
-        width: 46px;
-        height: 46px;
+        width: 67px;
+        height: 67px;
     }
 
     .glijbaan-marker img {
-        width: 46px;
-        height: 46px;
+        width: 65px;
+        height: 65px;
     }
 
     .popup {

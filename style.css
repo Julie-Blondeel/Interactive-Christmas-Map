@@ -69,18 +69,18 @@ body {
 }
 
 .carilon-marker img {
-    width:38px;
-    height:38px
+    width:55px;
+    height:55px
 }
 
 .stadhuis-marker img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
 .walburga-marker img {
-    width: 78px;
-    height: 78px;
+    width: 115px;
+    height: 115px;
 }
 
 .marker:hover img {

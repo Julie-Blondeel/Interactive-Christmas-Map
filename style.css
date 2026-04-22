@@ -88,6 +88,11 @@ body {
     height: 100px;
 }
 
+.train-marker img {
+    width: 80px;
+    height: 80px;
+}
+
 .marker:hover img {
     transform: scale(1.08);
 }

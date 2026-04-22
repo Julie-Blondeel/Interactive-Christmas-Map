@@ -164,6 +164,11 @@ body {
         height: 65px;
     }
 
+    .train-marker img {
+        width: 60px;
+        height: 60px;
+    }
+
     .popup {
         width: 200px;
         padding: 16px 16px 14px;

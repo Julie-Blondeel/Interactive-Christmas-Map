@@ -108,6 +108,16 @@ body {
     height: 137px;
 }
 
+.right-marker img {
+    width: 137px;
+    height: 137px;
+}
+
+.back-marker img {
+    width: 120px;
+    height: 120px;
+}
+
 .train-marker img {
     width: 90px;
     height: 90px;

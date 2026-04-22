@@ -83,6 +83,11 @@ body {
     height: 115px;
 }
 
+.glijbaan-marker img {
+    width: 100px;
+    height: 100px;
+}
+
 .marker:hover img {
     transform: scale(1.08);
 }
@@ -145,6 +150,11 @@ body {
     }
 
     .walburga-marker img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .glijbaan-marker img {
         width: 46px;
         height: 46px;
     }

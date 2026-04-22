@@ -104,8 +104,13 @@ body {
 }
 
 .left-marker img {
-    width: 125px;
-    height: 125px;
+    width: 137px;
+    height: 137px;
+}
+
+.train-marker img {
+    width: 90px;
+    height: 90px;
 }
 
 .marker:hover img {

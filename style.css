@@ -232,8 +232,8 @@ body {
     }
 
     .left-marker img {
-        width: 74px;
-        height: 74px;
+        width: 60px;
+        height: 60px;
     }
 
     .right-marker img {
@@ -257,8 +257,8 @@ body {
     }
 
     .little-marker img {
-        width: 42px;
-        height: 42px;
+        width: 35px;
+        height: 35px;
     }
 
     .popup {

@@ -231,7 +231,7 @@ body {
         height: 50px;
     }
 
-    .left-marker ing {
+    .left-marker img {
         width: 139px;
         height: 139px;
     }
@@ -252,13 +252,13 @@ body {
     }
 
     .horses-marker img {
-        width: 15px;
-        height: 15px;
+        width: 30px;
+        height: 30px;
     }
 
     .little-marker img {
-        width: 10px;
-        height: 1px;
+        width: 15px;
+        height: 15px;
     }
 
     .popup {

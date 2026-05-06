@@ -197,8 +197,8 @@ body {
         height: 43px;
     }
     .stadhuis-marker img {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
 
     .fontain-marker img {
@@ -232,8 +232,8 @@ body {
     }
 
     .left-marker img {
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
     }
 
     .right-marker img {
@@ -252,13 +252,13 @@ body {
     }
 
     .horses-marker img {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
 
     .little-marker img {
-        width: 35px;
-        height: 35px;
+        width: 20px;
+        height: 20px;
     }
 
     .popup {

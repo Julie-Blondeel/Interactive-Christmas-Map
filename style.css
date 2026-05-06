@@ -69,8 +69,8 @@ body {
 }
 
 .carilon-marker img {
-    width:55px;
-    height:55px
+    width: 78px;
+    height: 78px
 }
 
 .stadhuis-marker img {
@@ -121,6 +121,16 @@ body {
 .centre-marker img {
     width: 148px;
     height: 148px;
+}
+
+.horses-marker img {
+    width: 70px;
+    height: 70px;
+}
+
+.little-marker img {
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -178,8 +188,8 @@ body {
     }
 
     .carilon-marker img {
-        width: 50px;
-        height: 50ps;
+        width: 60px;
+        height: 60px;
     }
     .stadhuis-marker img {
         width: 62px;
@@ -229,6 +239,16 @@ body {
     .centre-marker img {
     width: 148px;
     height: 148px;
+    }
+
+    .horses-marker img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .little-marker img {
+        width: 45px;
+        height: 45px;
     }
 
     .popup {

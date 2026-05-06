@@ -78,6 +78,11 @@ body {
     height: 100px;
 }
 
+.fontain-marker img {
+    width: 30px;
+    height: 30px;
+}
+
 .walburga-marker img {
     width: 122px;
     height: 122px;
@@ -89,8 +94,8 @@ body {
 }
 
 .train-marker img {
-    width: 65px;
-    height: 65px;
+    width: 72px;
+    height: 72px;
 }
 
 .santa-marker img {
@@ -124,8 +129,8 @@ body {
 }
 
 .horses-marker img {
-    width: 70px;
-    height: 70px;
+    width: 67px;
+    height: 67px;
 }
 
 .little-marker img {
@@ -196,6 +201,11 @@ body {
         height: 62px;
     }
 
+    .fontain-marker img {
+        width: 30px;
+        height: 30px;
+    }
+
     .walburga-marker img {
         width: 67px;
         height: 67px;
@@ -207,8 +217,8 @@ body {
     }
 
     .train-marker img {
-        width: 60px;
-        height: 60px;
+        width: 67px;
+        height: 67px;
     }
 
     .santa-marker img {

@@ -252,13 +252,13 @@ body {
     }
 
     .horses-marker img {
-        width: 25px;
-        height: 25px;
+        width: 15px;
+        height: 15px;
     }
 
     .little-marker img {
-        width: 15px;
-        height: 15px;
+        width: 7px;
+        height: 7px;
     }
 
     .popup {

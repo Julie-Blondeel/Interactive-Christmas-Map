@@ -203,123 +203,7 @@ body {
     color: #6e5c72;
 }
 
-@media (max-width: 768px) and (orientation: landscape){
-  
-    .marker img {
-     width: 20px;
-     height: 20px;
-    }
 
-    .carilon-marker img {
-        width: 20px;
-        height: 20px;
-    }
-    .stadhuis-marker img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .fontain-marker img {
-        width: 15px;
-        height: 15px;
-    }
-
-    .walburga-marker img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .glijbaan-marker img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .train-marker img {
-        width: 20px;
-        height: 45px;
-    }
-
-    .santa-marker img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .book-marker img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .left-marker img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .right-marker img {
-    width: 20px;
-    height: 20px;
-    }
-
-    .back-marker img {
-    width: 20px;
-    height: 20px;
-    }
-
-    .centre-marker img {
-    width: 20px;
-    height: 20px;
-    }
-
-    .horses-marker img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .little-marker img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .map-object {
-    position: absolute;
-    pointer-events: none;
-    }
-
-    .parking-object {
-    width: 20px;
-    height: 20px;
-    }
-
-    .shop-object {
-        width: 20px;
-        height: 20px;
-    }
-
-   .popup {
-    transition: opacity 0.2s ease, transform 0.2s ease;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 190px;
-    font-size: 8px;
-    max-width: 240px;
-    background: rgba(255, 255, 255, 0.96);
-    color: #4b3b4f;
-    border-radius: 16px;
-    padding: 12px 12px 10px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    z-index: 100;
-}
-
-    .popup h3 {
-        font-size: 9px;
-        margin: 0 20px 4px 0;
-    }
-
-    .popup p {
-        font-size: 11 px;
-        line-height: 1.3;
-    }
-    }
 
 @media (max-width: 768px) and (orientation: portrait){
     .marker img {
@@ -409,6 +293,124 @@ body {
     .shop-object {
         width: 50px;
         height: 50px;
+    }
+
+   .popup {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 190px;
+    font-size: 8px;
+    max-width: 240px;
+    background: rgba(255, 255, 255, 0.96);
+    color: #4b3b4f;
+    border-radius: 16px;
+    padding: 12px 12px 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    z-index: 100;
+}
+
+    .popup h3 {
+        font-size: 9px;
+        margin: 0 20px 4px 0;
+    }
+
+    .popup p {
+        font-size: 11 px;
+        line-height: 1.3;
+    }
+    }
+
+    @media (max-width: 768px) and (orientation: landscape){
+  
+    .marker img {
+     width: 20px;
+     height: 20px;
+    }
+
+    .carilon-marker img {
+        width: 20px;
+        height: 20px;
+    }
+    .stadhuis-marker img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .fontain-marker img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .walburga-marker img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .glijbaan-marker img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .train-marker img {
+        width: 20px;
+        height: 45px;
+    }
+
+    .santa-marker img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .book-marker img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .left-marker img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .right-marker img {
+    width: 20px;
+    height: 20px;
+    }
+
+    .back-marker img {
+    width: 20px;
+    height: 20px;
+    }
+
+    .centre-marker img {
+    width: 20px;
+    height: 20px;
+    }
+
+    .horses-marker img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .little-marker img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .map-object {
+    position: absolute;
+    pointer-events: none;
+    }
+
+    .parking-object {
+    width: 20px;
+    height: 20px;
+    }
+
+    .shop-object {
+        width: 20px;
+        height: 20px;
     }
 
    .popup {

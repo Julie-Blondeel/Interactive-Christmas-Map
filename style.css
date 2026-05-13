@@ -295,9 +295,7 @@ body {
 
     .popup {
         position: absolute;
-        transform: translateX(-50%);
-        left: 50%;
-        bottom: 110%;
+        transform: translateX(-50% -40%);
         width: 100px;
         padding: 10px 10px 8px;
         border-radius: 12px;

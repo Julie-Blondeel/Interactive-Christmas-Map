@@ -204,18 +204,19 @@ body {
 }
 
 @media (max-width: 768px) and (orientation: landscape){
+  
     .marker img {
      width: 34px;
      height: 34px;
     }
 
     .carilon-marker img {
-        width: 47px;
-        height: 47px;
+        width: 20px;
+        height: 20px;
     }
     .stadhuis-marker img {
-        width: 83px;
-        height: 83px;
+        width: 20px;
+        height: 20px;
     }
 
     .fontain-marker img {
@@ -224,8 +225,8 @@ body {
     }
 
     .walburga-marker img {
-        width: 77px;
-        height: 77px;
+        width: 20px;
+        height: 20px;
     }
 
     .glijbaan-marker img {

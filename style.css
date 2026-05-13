@@ -72,6 +72,12 @@ body {
     width: 80px;
 }
 
+.shop-object {
+    left: 20%;
+    top: 55%;
+    width: 90px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;
@@ -276,7 +282,17 @@ body {
         width: 200px;
         padding: 16px 16px 14px;
     }
-}
+
+    .map-object {
+    position: absolute;
+    pointer-events: none;
+    }
+
+    .parking-object {
+    width: 70px;
+    height: 70px;
+    }
+    }
 
 
 /*#resetZoom {

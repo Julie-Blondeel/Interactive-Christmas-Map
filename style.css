@@ -206,8 +206,8 @@ body {
 @media (max-width: 768px) and (orientation: landscape){
   
     .marker img {
-     width: 34px;
-     height: 34px;
+     width: 20px;
+     height: 20px;
     }
 
     .carilon-marker img {
@@ -230,53 +230,53 @@ body {
     }
 
     .glijbaan-marker img {
-        width: 52px;
-        height: 52px;
+        width: 20px;
+        height: 20px;
     }
 
     .train-marker img {
-        width: 45px;
+        width: 20px;
         height: 45px;
     }
 
     .santa-marker img {
-        width: 60px;
-        height: 60px;
+        width: 20px;
+        height: 20px;
     }
 
     .book-marker img {
-        width: 60px;
-        height: 60px;
+        width: 20px;
+        height: 20px;
     }
 
     .left-marker img {
-        width: 67px;
-        height: 67px;
+        width: 20px;
+        height: 20px;
     }
 
     .right-marker img {
-    width: 54px;
-    height: 54px;
+    width: 20px;
+    height: 20px;
     }
 
     .back-marker img {
-    width: 60px;
-    height: 60px;
+    width: 20px;
+    height: 20px;
     }
 
     .centre-marker img {
-    width: 87px;
-    height: 87px;
+    width: 20px;
+    height: 20px;
     }
 
     .horses-marker img {
-        width: 35px;
-        height: 35px;
+        width: 20px;
+        height: 20px;
     }
 
     .little-marker img {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
 
     .map-object {
@@ -285,13 +285,13 @@ body {
     }
 
     .parking-object {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     }
 
     .shop-object {
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
     }
 
    .popup {

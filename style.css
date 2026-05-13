@@ -205,10 +205,11 @@ body {
 
 
 
-@media (max-width: 768px){
-    .marker img {
-     width: 34px;
-     height: 34px;
+@media (max-width: 768px) and (orientation: landscape){
+
+    [class*="-marker"]img{
+     width: 34px !important;
+     height: 34px !important;
     }
 
     .carilon-marker img {

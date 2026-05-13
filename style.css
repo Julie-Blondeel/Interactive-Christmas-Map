@@ -61,6 +61,17 @@ body {
     z-index: 10;
 }
 
+.map-object {
+    position: absolute;
+    pointer-events: none;
+}
+
+.parking-object {
+    left: 13%;
+    top: 66%;
+    width: 80px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

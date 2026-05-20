@@ -84,6 +84,12 @@ body {
     width: 95px;
 }
 
+.dierentuin-object {
+    left: 4%;
+    top: 30%;
+    width: 100px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

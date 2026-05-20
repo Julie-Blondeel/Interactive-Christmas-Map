@@ -78,6 +78,12 @@ body {
     width: 90px;
 }
 
+.ocmw-object {
+    left: 20%;
+    top: 24%;
+    width: 95px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

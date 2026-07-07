@@ -90,6 +90,12 @@ body {
     width: 100px;
 }
 
+.buildings-object {
+    left: 40%;
+    top: 28%;
+    width: 100px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

@@ -96,6 +96,12 @@ body {
     width: 100px;
 }
 
+.caffe-object {
+    left: 30%;
+    top: 13%;
+    width: 130px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

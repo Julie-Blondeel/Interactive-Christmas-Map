@@ -102,6 +102,18 @@ body {
     width: 130px;
 }
 
+.busstop-object {
+    left: 84%;
+    top: 31%;
+    width: 90px;
+}
+
+.clothesshop-object {
+    left: 77%;
+    top: 13%;
+    width: 90px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

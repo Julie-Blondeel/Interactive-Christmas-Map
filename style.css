@@ -132,6 +132,12 @@ body {
      width: 80px;
 }
 
+.stranger-object {
+    left: 22%;
+    top: 32%;
+    width: 18px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

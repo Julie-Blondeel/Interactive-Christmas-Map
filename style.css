@@ -114,6 +114,12 @@ body {
     width: 90px;
 }
 
+.farmathy-object {
+    left: 80%;
+    top: 68%;
+    width: 90px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

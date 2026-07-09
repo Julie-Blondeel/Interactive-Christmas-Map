@@ -126,6 +126,12 @@ body {
     width: 90px;
 }
 
+.livingbuilding-object {
+     left: 6%;
+     top: 14%;
+     width: 80px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

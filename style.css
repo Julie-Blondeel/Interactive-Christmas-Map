@@ -120,6 +120,12 @@ body {
     width: 90px;
 }
 
+.smallbuilding-object {
+    left: 89%;
+    top: 49%;
+    width: 90px;
+}
+
 .marker img {
     object-fit: contain;
     display: block;

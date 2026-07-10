@@ -14,6 +14,8 @@ const panzoom = Panzoom(mapLayer,{
     step: 0.2
  });
 
+ const initialScale = 1.2;
+
 
 mapViewer.addEventListener(
     "wheel",
@@ -28,6 +30,7 @@ mapViewer.addEventListener(
 
 function resetToCenter(){
     panzoom.reset({animate:false});
+    panzoom.zoom(initialScale,{animate:false});
     updateMarkerScale();
 }
 

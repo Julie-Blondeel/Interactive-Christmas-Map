@@ -14,7 +14,7 @@ const panzoom = Panzoom(mapLayer,{
     step: 0.2
  });
 
- const initialScale = 1.2;
+ const initialScale = 1.25;
 
 
 mapViewer.addEventListener(

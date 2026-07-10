@@ -45,11 +45,9 @@ window.addEventListener("resize",() => {
 const markers = document.querySelectorAll(".marker");
 
 function updateMarkerScale() {
-    const scale = panzoom.getScale();
-
-    markers.forEach((marker)=>{
-      marker.style.transform = `translate(-50%, -100%) scale(${1/scale})`
-    });
+   markers.forEach((marker) =>{
+   marker.style.transform = 'translate(-50%, -100%)';
+   });  
 }
 
 markers.forEach((marker) =>{

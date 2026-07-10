@@ -66,6 +66,12 @@ body {
     pointer-events: none;
 }
 
+.left-object {
+    left: 58%;
+    top: 35%;
+    width: 55px;
+}
+
 .parking-object {
     left: 13%;
     top: 66%;
@@ -127,15 +133,15 @@ body {
 }
 
 .livingbuilding-object {
-     left: 6%;
-     top: 14%;
-     width: 80px;
+    left: 6%;
+    top: 14%;
+    width: 80px;
 }
 
-.stranger-object {
-    left: 22%;
-    top: 32%;
-    width: 18px;
+.fontain-object {
+    left: 62%;
+    top: 30%;
+    width: 25px;
 }
 
 .marker img {
@@ -151,13 +157,8 @@ body {
 }
 
 .stadhuis-marker img {
-    width: 135px;
-    height: 135px;
-}
-
-.fontain-marker img {
-    width: 30px;
-    height: 30px;
+    width: 126px;
+    height: 126px;
 }
 
 .walburga-marker img {
@@ -171,8 +172,8 @@ body {
 }
 
 .train-marker img {
-    width: 76px;
-    height: 76px;
+    width: 63px;
+    height: 63px;
 }
 
 .santa-marker img {
@@ -185,14 +186,9 @@ body {
     height: 90px
 }
 
-.left-marker img {
-    width: 120px;
-    height: 120px;
-}
-
 .right-marker img {
-    width: 100px;
-    height: 100px;
+    width: 105px;
+    height: 105px;
 }
 
 .back-marker img {

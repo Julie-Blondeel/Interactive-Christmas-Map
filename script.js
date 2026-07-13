@@ -22,15 +22,13 @@ mapViewer.addEventListener(
     (event) => {
         event.preventDefault();
         panzoom.zoomWithWheel(event);
-        updateMarkerScale();
+     
     },
     { passive: false }
 );
     
 
-function resetToCenter(){
-    panzoom.reset({animate:false});
-    panzoom.zoom(initialScale,{animate:false});
+function resetToCenter(){   
     updateMarkerScale();
 }
 
@@ -44,11 +42,7 @@ window.addEventListener("resize",() => {
 
 const markers = document.querySelectorAll(".marker");
 
-function updateMarkerScale() {
-   markers.forEach((marker) =>{
-   marker.style.transform = 'translate(-50%, -100%)';
-   });  
-}
+
 
 markers.forEach((marker) =>{
      marker.addEventListener("click",(event)=>{

@@ -260,23 +260,27 @@ body {
     }
 
 
+/*TABLET landscape*/
+
+    @media (max-width: 1024px){
+
+    }
+
+/*Tablet portrait*/
+
+    @media (max-width: 1024px){
+
+    }
+
+/*GSM portrait*/
+
     @media (max-width: 768px){
-
-        .popup{
-            width:170px;
-            font-size: 10px;
-            padding: 10px;
-        }
-
-        .popup h3{
-             font-size: 12px;
-        }
-
-        .popup p{
-            font-size:10px;
-        }
-
 
     }
     
+/*GSM landscape*/
+
+    @media (max-width: 768px){
+        
+    }
 

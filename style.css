@@ -81,19 +81,19 @@ body {
 .parking-object {
     left: 18%;
     top: 65%;
-    width:76px;
+    width:70px;
 }
 
 .shop-object {
     left: 26%;
     top: 43%;
-    width: 72px;
+    width: 70px;
 }
 
 .ocmw-object {
     left: 20%;
     top: 30%;
-    width:79px;
+    width:75px;
 }
 
 .dierentuin-object {
@@ -128,7 +128,7 @@ body {
 
 .farmathy-object {
     left: 82%;
-    top: 73%;
+    top: 77%;
     width: 69px;
 }
 
@@ -139,13 +139,13 @@ body {
 }
 
 .livingbuilding-object {
-    left: 9%;
-    top: 20%;
+    left: 4%;
+    top: 15%;
     width: 57px;
 }
 
 .fontain-object {
-    left: 62%;
+    left: 63%;
     top: 30%;
     width: 25px;
 }
@@ -158,8 +158,8 @@ body {
 }
 
 .stadhuis-marker img {
-    width: 118px;
-    height: 118px;
+    width: 135px;
+    height: 135px;
 }
 
 .walburga-marker img {
@@ -168,13 +168,13 @@ body {
 }
 
 .glijbaan-marker img {
-    width: 90px;
-    height: 90px;
+    width: 88px;
+    height: 88px;
 }
 
 .train-marker img {
-    width: 63px;
-    height: 63px;
+    width: 65px;
+    height: 65px;
 }
 
 .santa-marker img {
@@ -188,28 +188,28 @@ body {
 }
 
 .right-marker img {
-    width: 105px;
-    height: 105px;
+    width: 88px;
+    height: 88px;
 }
 
 .back-marker img {
-    width: 108px;
-    height: 108px;
+    width: 85px;
+    height: 85px;
 }
 
 .centre-marker img {
-    width: 148px;
-    height: 148px;
+    width: 117px;
+    height: 117px;
 }
 
 .horses-marker img {
-    width: 56px;
-    height: 56px;
+    width: 40px;
+    height: 40px;
 }
 
 .little-marker img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .marker:hover img {
@@ -259,46 +259,7 @@ body {
 }
 
 
-
-
-    
-
-    .back-marker img {
-    width: 60px;
-    height: 60px;
-    }
-
-    .centre-marker img {
-    width: 87px;
-    height: 87px;
-    }
-
-    .horses-marker img {
-        width: 35px;
-        height: 35px;
-    }
-
-    .little-marker img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .map-object {
-    position: absolute;
-    pointer-events: none;
-    }
-
-    .parking-object {
-    width: 50px;
-    height: 50px;
-    }
-
-    .shop-object {
-        width: 50px;
-        height: 50px;
-    }
-
-   .popup {
+.popup {
     transition: opacity 0.2s ease, transform 0.2s ease;
     position: absolute;
     left: 0;

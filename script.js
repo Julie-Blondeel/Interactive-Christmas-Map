@@ -14,7 +14,36 @@ const panzoom = Panzoom(mapLayer,{
     step: 0.2
  });
 
- const initialScale = 1.25;
+function getinitialScale(){
+
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+
+    //GSM portrait
+
+    if (w<768 && h >w){
+        return 0.85;
+    }
+
+    //GSM landscape
+
+    if (w<1024 && w > h){
+        return 0.95;
+    }
+
+    //tablet
+
+    if (w<1200) {
+        return 1.05;
+    }
+
+    //notebook
+
+    return 1.25;
+
+}
+
+let initialScale = getInitialScale();
 
 
 mapViewer.addEventListener(
@@ -38,6 +67,7 @@ window.addEventListener("load",() =>{
 });
 
 window.addEventListener("resize",() => {
+    initialScale = getInitialScale();
     resetToCenter();
 });
 

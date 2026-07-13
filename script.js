@@ -29,7 +29,8 @@ mapViewer.addEventListener(
     
 
 function resetToCenter(){   
-    updateMarkerScale();
+    panzoom.reset({animate:false});
+    panzoom.zoom(initialScale,{animate:flse});
 }
 
 window.addEventListener("load",() =>{

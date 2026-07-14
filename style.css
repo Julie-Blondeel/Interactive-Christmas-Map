@@ -277,101 +277,275 @@ font-family: Arial, Helvetica, sans-serif;
         /*MAP OBJECTS*/
 
         .carilon-object{
-          width: 51px;
+          width:51px;
         }
 
         .left-object{
-            width: 51px;
+            width:51px;
         }
 
         .parking-object{
-            width: 64px;
+            width:64px;
         }
 
         .shop-object{
-            width: 64px;
+            width:64px;
         }
 
         .ocmw-object{
-            width: 69px;
+            width:69px;
         }
 
         .dierentuin-object{
-            width: 68px;
+            width:68px;
         }
 
         .buildings-object{
-            width: 68px;
+            width:68px;
         }
 
         .caffe-object{
-            width: 92px;
+            width:92px;
         }
 
         .busstop-object{
-            width: 66px;
+            width:66px;
         }
 
         .clothesschop-object{
-            width: 64px;
+            width:64px;
         }
 
         .farmathy-object{
-            width: 63px;
+            width:63px;
         }
 
         .smallbuilding-object{
-            width: 67px;
+            width:67px;
         }
 
         .livingbuilding-object{
-            width: 52px;
+            width:52px;
         }
 
         .fontain-object{
-            width: 23px;
+            width:23px;
         }
 
         /*MARKERS*/
 
         .stadhuis-marker img{
-            width: 124px;
-            height: 124px;
+            width:124px;
+            height:124px;
         }
 
         .walburga-marker img{
-            width: 115px;
-            height: 115px;
+            width:115px;
+            height:115px;
         }
 
         .glijbaan-marker img{
-            width: 81px;
-            height: 81px;
+            width:81px;
+            height:81px;
         }
 
         .train-marker img{
-            width: 60px;
-            haight: 60px;
+            width:60px;
+            haight:60px;
         }
 
         .santa-marker img{
-            width: 101px;
-            height: 101px;
+            width:101px;
+            height:101px;
         }
 
         .book-marker img{
-            width: 83px;
-            height: 83px;
+            width:83px;
+            height:83px;
+        }
+
+        .right-marker img{
+            width:81px; 
+            height:81px;
+        }
+
+        .back-marker img{
+            width:78px;
+            height:78px;
+        }
+
+        .centre-marker img{
+            width:108px;
+            height:108px;       
+        }
+
+        .horses-marker img{
+            width:37px;
+            height:37px;
+        }
+
+        .little-marker img{
+            width:28px;
+            height:28px;
+        }
+
+        .popup{
+            width:185px;
+            padding:11px 11px 9px;
+        }
+
+        .popup h3{
+            font-size:9px;
+        }
+
+        .popup p{
+            font-size:11px;
         }
     }
 
-    
 
 /*Tablet portrait*/
 
-    @media (max-width: 1024px){
+    @media 
+    (min-width:769px)
+    and(max-width:1024px)
+    and(orientation:portrait){
 
+    .map-image{
+        width:auto;
+        height:100dvh;
+        max-width:none;
+        max-height:none;
     }
+
+    /*MAP OBJECTS*/
+
+    .carilon-object{
+        width:47px;
+    }
+
+    .left-object{
+        width:47px;
+    }
+
+    .parking-object{
+        width:60px;
+    }
+
+    .shop-object{
+        width:60px;
+    }
+
+    .ocmw-object{
+        width:64px;
+    }
+
+    .dierentuin-object{
+        width:63px;
+    }
+
+    .buildings-object{
+        width:63px;
+    }
+
+    .caffe-object{
+        width:85px;
+    }
+
+    .busstop-object{
+        width:61px;
+    }
+
+    .clothesschop-object{
+        width:60px;
+    }
+
+    .farmathy-object{
+        width:59px;
+    }
+
+    .smallbuilding-object{
+        width:62px;
+    }
+
+    .livingbuilding-object{
+        width:48px;
+    }
+
+    .fontain-object{
+        width:21px;
+    }
+
+    /*MARKERS*/
+
+    .stadhuis-marker img{
+        width:115px;
+        width:115px;
+    }
+
+    .walburga-marker img{
+        width:106px;
+        height:106px;
+    }
+
+    .glijbaan-marker img{
+        width:75px;
+        height:75px;
+    }
+
+    .train-marker img{
+        width:55px;
+        height:55px;
+    }
+
+    .santa-marker img{
+        width:94px;
+        height:94px;
+    }
+
+    .book-marker img{
+        width:77px;
+        height:77px;
+    }
+
+    .right-marker img{
+        width:77px;
+        height:77px;
+    }
+
+    .back-marker img{
+        width:72px;
+        height:72px;
+    }
+
+    .centre-marker img{
+        width:99px;
+        min-height:99px;
+    }
+
+    .horses-marker img{
+        width:34px;
+        height:34px;
+    }
+
+    .little-marker img{
+        width:26px;
+        height:26px;
+    }
+
+    .popup{
+        width:180px;
+        padding:11px 11px 9px;
+    }
+
+    .popup h3{
+        font-size:9px;
+    }
+
+    .popup p{
+        font-size:10px;
+    }
+}
 
 /*GSM portrait*/
 

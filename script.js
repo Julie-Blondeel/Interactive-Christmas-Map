@@ -3,6 +3,14 @@
 const mapViewer = document.getElementById("mapViewer");
 const mapLayer = document.getElementById("mapLayer");
 
+if(!mapViewer||!mapLayer){
+    throw newError("mapViewer or mapLayer was not found");
+}
+
+if(typeof Panzoom === "undefined"){
+    throw new Error("Pasnzoom library was not loaded");
+}
+
 const popup = document.getElementById("popup");
 const popupTitle = document.getElementById("popupTitle");
 const popupText = document.getElementById("popupText");

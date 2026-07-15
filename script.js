@@ -22,7 +22,7 @@ const panzoom = Panzoom(mapLayer,{
     step: 0.2
  });
 
-function getinitialScale(){
+function getInitialScale(){
 
     const w = window.innerWidth;
     const h = window.innerHeight;

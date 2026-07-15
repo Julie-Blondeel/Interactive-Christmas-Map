@@ -65,22 +65,27 @@ mapViewer.addEventListener(
 );
     
 
-function resetToCenter(){   
-    panzoom.reset({animate:false});
-    panzoom.zoom(initialScale,{animate:flse});
+
+function resetToCenter(){
+    initialScale = getInitialScale();
+
+    panzoom.reset({
+        animate: false
+    });
+
+    panzoom.zoom(initialScale,{
+        animate: false
+    });
 }
 
-window.addEventListener("load",() =>{
-    resetToCenter();
-});
+window.addEventListener("load",resetToCenter);
 
 window.addEventListener("resize",() => {
-    initialScale = getInitialScale();
     resetToCenter();
 });
 
-const markers = document.querySelectorAll(".marker");
 
+const markers = document.querySelectorAll(".marker");
 
 
 markers.forEach((marker) =>{

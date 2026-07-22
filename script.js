@@ -153,6 +153,8 @@ mapViewer.addEventListener("click",(event) => {
 
 
 
+
+
 /*const mapViewer = document.getElementById("mapViewer");
 const mapLayer = document.getElementById("mapLayer");
 

@@ -113,16 +113,16 @@ user-select: none;
 
 .carilon-object {
     left: 54%;
-    top: 68%;
+    top: 61%;
 
-    --object-width: 4.6%;
+    --object-width: 6%;
 }
 
 /*Left side*/
 
 .left-object {
-    left: 50%;
-    top: 35%;
+    left: 59%;
+    top: 33%;
 
     --object-width:4.6%;
 }
@@ -130,17 +130,17 @@ user-select: none;
 /*Parking*/
 
 .parking-object {
-    left: 18%;
-    top: 65%;
+    left: 17%;
+    top: 74%;
 
     --object-width: 5.8%;
 }
 
-/*Shop*/
+/*Clothes Shop*/
 
-.shop-object {
-    left: 26%;
-    top: 43%;
+.clothesshop-object {
+    left: 80%;
+    top: 14%;
 
     --object-width: 5.8%;
 }
@@ -148,8 +148,8 @@ user-select: none;
 /*OCMW*/
 
 .ocmw-object {
-    left: 7%;
-    top: 44%;
+    left: 18%;
+    top: 29%;
 
     --object-width: 6.25%;
 }
@@ -157,8 +157,8 @@ user-select: none;
 /*Dierentuin*/
 
 .dierentuin-object {
-    left: 7%;
-    top: 44%;
+    left: 9%;
+    top: 39%;
 
     --object-width: 6.2%;
 }
@@ -166,8 +166,8 @@ user-select: none;
 /*Buildings*/
 
 .buildings-object {
-    left: 44%;
-    top: 35%;
+    left: 37%;
+    top: 22%;
 
     --object-width: 6.2%;
 }
@@ -175,11 +175,66 @@ user-select: none;
 /*Caffe*/
 
 .caffe-object {
-left: 35%;
-top: 25%;
+left: 40%;
+top: 33%;
 
---object-width: 8.3%;
+    --object-width: 8.3%;
 }
+
+/*Bus stop*/
+
+.busstop-object {
+    left: 84%;
+    top: 40%;
+
+    --object-width: 6%;
+}
+
+/*Shop-object*/
+
+.shop-object {
+    left: 18%;
+    top: 59%;
+    --object-width: 5.8%;
+
+}
+
+/*Farmathy*/
+
+.farmathy-object {
+    left: 82%;
+    top: 77%;
+
+    --object-width: 5.2%;
+}
+
+/*Small building*/
+
+    .smallbuilding-object {
+        left: 90%;
+        top: 54%;
+
+        --object-width: 5.8%;
+    }
+
+/*Living building*/
+
+.livingbuilding-object {
+    left: 22%;
+    top: 10%;
+
+    --object-width: 4.75%;
+}
+
+/*Fontain*/
+
+.fontain-object {
+    left: 63%;
+    top: 30%;
+
+    --object-width: 2.1%;
+}
+
 
 
 
@@ -299,7 +354,7 @@ font-family: Arial, Helvetica, sans-serif;
     top: 30%;
     width:75px;
 }
-
+    
 .dierentuin-object {
     left: 7%;
     top: 44%;

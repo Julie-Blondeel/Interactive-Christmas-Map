@@ -112,18 +112,18 @@ user-select: none;
 
 .carilon-object {
     left: 54%;
-    top: 61%;
+    top: 70%;
 
-    --object-width: 6%;
+    --object-width: 7%;
 }
 
 /*Left side*/
 
 .left-object {
-    left: 59%;
-    top: 33%;
+    left: 57%;
+    top: 28%;
 
-    --object-width:4.6%;
+    --object-width:5.2%;
 }
 
 /*Parking*/
@@ -229,9 +229,9 @@ top: 33%;
 
 .fontain-object {
     left: 63%;
-    top: 30%;
+    top: 26%;
 
-    --object-width: 2.1%;
+    --object-width: 3.1%;
 }
 
 /*Markers*/
@@ -299,13 +299,13 @@ top: 33%;
 /*Stadhuis marker*/
 
 .stadhuis-marker {
-    --marker-width: 11.25%;
+    --marker-width: 13.25%;
 }
 
 /*St. Walburga marker*/
 
 .walburga-marker {
-    --marker-width: 10.4%;
+    --marker-width: 9.4%;
 }
 
 /*Glijbaan marker*/
@@ -341,19 +341,19 @@ top: 33%;
 /*Back-marker*/
 
 .back-marker {
-    --marker-width: 7.1%;
+    --marker-width: 8.7%;
 }
 
 /*Centre-marker*/
 
 .centre-marker {
-    --marker-width: 9.75%;
+    --marker-width: 12%;
 }
 
 /*Horses-marker*/
 
 .horses-marker {
-    --marker-width: 3.3%;
+    --marker-width: 4%;
 }
 
 /*Little horses marker*/

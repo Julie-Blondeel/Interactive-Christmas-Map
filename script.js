@@ -81,8 +81,8 @@ markers.forEach((marker) => {
 
 /*Position popup close to the selected marker*/
 
-let left = marker.offsetLeft + 30;
-let top = marker.offsetTop -20;
+let left = marker.offsetLeft + 15;
+let top = marker.offsetTop -10;
 
 const popupWidth = popup.offsetWidth;
 const popupHeight = popup.offsetHeight;
@@ -94,7 +94,7 @@ const layerHeight = mapLayer.offsetHeight;
 /*Prevent popup from leaving the right side*/
 
 if(left + popupWidth > layerWidth -12){
-    let = marker.offsetLeft - popupWidth -20;
+    left = marker.offsetLeft - popupWidth -10;
 }
 
 /*Prevent popup from leaving the top*/

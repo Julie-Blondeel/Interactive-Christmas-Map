@@ -130,9 +130,9 @@ user-select: none;
 
 .parking-object {
     left: 17%;
-    top: 74%;
+    top: 70%;
 
-    --object-width: 5.8%;
+    --object-width: 6.7%;
 }
 
 /*Clothes Shop*/
@@ -141,25 +141,25 @@ user-select: none;
     left: 80%;
     top: 14%;
 
-    --object-width: 5.8%;
+    --object-width: 6.7%;
 }
 
 /*OCMW*/
 
 .ocmw-object {
     left: 18%;
-    top: 29%;
+    top: 28%;
 
-    --object-width: 6.25%;
+    --object-width: 7%;
 }
 
 /*Dierentuin*/
 
 .dierentuin-object {
-    left: 9%;
+    left: 8%;
     top: 39%;
 
-    --object-width: 6.2%;
+    --object-width: 6.8%;
 }
 
 /*Buildings*/
@@ -168,33 +168,33 @@ user-select: none;
     left: 37%;
     top: 22%;
 
-    --object-width: 6.2%;
+    --object-width: 6.9%;
 }
 
 /*Caffe*/
 
 .caffe-object {
 left: 40%;
-top: 33%;
+top: 30%;
 
-    --object-width: 8.3%;
+    --object-width: 8.9%;
 }
 
 /*Bus stop*/
 
 .busstop-object {
     left: 84%;
-    top: 40%;
+    top: 37%;
 
-    --object-width: 6%;
+    --object-width: 7%;
 }
 
 /*Shop-object*/
 
 .shop-object {
-    left: 18%;
-    top: 59%;
-    --object-width: 5.8%;
+    left: 22%;
+    top: 55%;
+    --object-width: 7.4%;
 
 }
 
@@ -202,27 +202,27 @@ top: 33%;
 
 .farmathy-object {
     left: 82%;
-    top: 77%;
+    top: 68%;
 
-    --object-width: 5.2%;
+    --object-width: 6%;
 }
 
 /*Small building*/
 
     .smallbuilding-object {
         left: 90%;
-        top: 54%;
+        top: 50%;
 
-        --object-width: 5.8%;
+        --object-width: 6.2%;
     }
 
 /*Living building*/
 
 .livingbuilding-object {
-    left: 22%;
-    top: 10%;
+    left: 5%;
+    top: 15%;
 
-    --object-width: 4.75%;
+    --object-width: 5%;
 }
 
 /*Fontain*/

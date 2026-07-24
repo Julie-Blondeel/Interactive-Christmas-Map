@@ -231,7 +231,7 @@ top: 30%;
     left: 63%;
     top: 26%;
 
-    --object-width: 3.1%;
+    --object-width: 2.7%;
 }
 
 /*Markers*/
@@ -330,7 +330,13 @@ top: 30%;
 /*Train-marker*/
 
 .train-marker {
-    --marker-width: 5.4%;
+    --marker-width: 4.6%;
+}
+
+/*Ijsbaan-marker*/
+
+.ijsbaan-marker {
+    --marker-width: 4.8%;
 }
 
 /*Santa-marker*/

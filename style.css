@@ -261,6 +261,15 @@ top: 30%;
     --object-width: 1.3%;
 }
 
+/*Shopping lady*/
+
+.shopping-object {
+    left: 78%;
+    top: 22%;
+
+    --object-width: 1.6%;
+}
+
 /*Markers*/
 
 .marker {

@@ -243,6 +243,15 @@ top: 30%;
     --object-width: 4%;
 }
 
+/*Lady*/
+
+.lady-object {
+    left: 26%;
+    top: 62%;
+
+    --object-width: 1.6%;
+}
+
 /*Markers*/
 
 .marker {

@@ -183,8 +183,8 @@ top: 30%;
 /*Bus stop*/
 
 .busstop-object {
-    left: 84%;
-    top: 37%;
+    left: 82%;
+    top: 35%;
 
     --object-width: 7%;
 }
@@ -201,7 +201,7 @@ top: 30%;
 /*Farmathy*/
 
 .farmathy-object {
-    left: 82%;
+    left: 79%;
     top: 68%;
 
     --object-width: 6%;

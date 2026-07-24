@@ -234,6 +234,15 @@ top: 30%;
     --object-width: 2.7%;
 }
 
+/*Mother*/
+
+.mother-object {
+    left: 22%;
+    top: 40%;
+
+    --object-width: 4%;
+}
+
 /*Markers*/
 
 .marker {

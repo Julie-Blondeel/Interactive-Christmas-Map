@@ -270,6 +270,15 @@ top: 30%;
     --object-width: 1.6%;
 }
 
+/*Housewife*/
+
+.houswife-object {
+    left: 74%;
+    top: 72%;
+
+    --object-width: 1.5%;
+}
+
 /*Markers*/
 
 .marker {

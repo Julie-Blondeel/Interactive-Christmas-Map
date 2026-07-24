@@ -156,8 +156,8 @@ user-select: none;
 /*Dierentuin*/
 
 .dierentuin-object {
-    left: 8%;
-    top: 39%;
+    left: 11%;
+    top: 37%;
 
     --object-width: 6.8%;
 }
@@ -210,8 +210,8 @@ top: 30%;
 /*Small building*/
 
     .smallbuilding-object {
-        left: 90%;
-        top: 50%;
+        left: 64%;
+        top: 81%;
 
         --object-width: 6.2%;
     }
@@ -219,8 +219,8 @@ top: 30%;
 /*Living building*/
 
 .livingbuilding-object {
-    left: 5%;
-    top: 15%;
+    left: 24%;
+    top: 13%;
 
     --object-width: 5%;
 }

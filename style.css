@@ -449,7 +449,7 @@ top: 30%;
 
     overflow-wrap: anywhere;
 
-    z-index: 100;
+    z-index: 1000;
 }
 
 /*Hidden popup*/

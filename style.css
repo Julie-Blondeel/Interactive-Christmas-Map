@@ -279,6 +279,15 @@ top: 30%;
     --object-width: 1.5%;
 }
 
+/*Coffeman*/
+
+.coffeman-object {
+    left: 77%;
+    top: 65%;
+
+    --object-width: 1.5%;
+}
+
 /*Markers*/
 
 .marker {

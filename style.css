@@ -306,6 +306,15 @@ top: 30%;
     --object-width: 2.1%;
 }
 
+/*Granny*/
+
+.granny-object {
+    left: 13%;
+    top: 44%;
+
+    --object-width: 1.5%;
+}
+
 /*Markers*/
 
 .marker {

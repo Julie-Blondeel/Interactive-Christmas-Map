@@ -327,10 +327,10 @@ top: 30%;
 /*Young woman*/
 
 .youngwoman-object {
-    left: 9%;
-    top: 32%;
+    left: 15%;
+    top: 30%;
 
-    --object-width: 1%;
+    --object-width: 0.9%;
 }
 
 /*Markers*/

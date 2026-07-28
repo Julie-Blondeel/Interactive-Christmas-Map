@@ -297,6 +297,15 @@ top: 30%;
     --object-width: 1.2%;
 }
 
+/*Sisters*/
+
+.sisters-object {
+    left: 37%;
+    top: 13%;
+
+    --object-width: 2.1%;
+}
+
 /*Markers*/
 
 .marker {

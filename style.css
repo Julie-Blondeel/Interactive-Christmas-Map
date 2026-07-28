@@ -237,7 +237,7 @@ top: 30%;
 /*Mother*/
 
 .mother-object {
-    left: 22%;
+    left: 27%;
     top: 40%;
 
     --object-width: 4%;
@@ -286,6 +286,15 @@ top: 30%;
     top: 65%;
 
     --object-width: 1.5%;
+}
+
+/*Officewoman*/
+
+.officewoman-object {
+    left: 27%;
+    top: 18%;
+
+    --object-width: 1.2%;
 }
 
 /*Markers*/

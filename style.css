@@ -315,6 +315,15 @@ top: 30%;
     --object-width: 1.5%;
 }
 
+/*Father*/
+
+.father-object {
+    left: 75%;
+    top: 15%;
+
+    --object-width: 1.9%;
+}
+
 /*Markers*/
 
 .marker {
